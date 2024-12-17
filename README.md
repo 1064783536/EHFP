@@ -9,6 +9,6 @@ Just replace the data_preprocessor.py and voxelnet.py files in the mmdetection3d
 The path of file "data_preprocessor.py" is "mmdet3d/models/data_preprocessors/data_preprocessor.py"
 The path of file "voxelnet.py" is "mmdet3d/models/detectors/voxelnet.py"
 # Train
-python tools/train.py {config}
+python tools/train.py configs/pointpillars/pointpillars_hv_secfpn_8xb6-160e_kitti-3d-3class.py
 # Test
-python tools/test.py {config}
+python tools/test.py configs/pointpillars/pointpillars_hv_secfpn_8xb6-160e_kitti-3d-3class.py
