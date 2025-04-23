@@ -1,5 +1,5 @@
-# CHIFE
-we propose a complementary height information enhancement framework (CHIEF) to improve the performance of voxel-based 3D object detection method.
+# SVP
+we propose a stratified vertical priors framework to improve the pillar-based 3D object detection algorithms.
 
 # Installation
 Install mmdetection3d and make sure it reproduces the pointpillar algorithm correctly!(https://github.com/open-mmlab/mmdetection3d/tree/main)
